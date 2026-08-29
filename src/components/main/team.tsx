@@ -8,7 +8,7 @@ export default function Team() {
   const teamMembers = [
     {
       name: "Usama Ejaz",
-      role: "Founder and CEO",
+      role: "Founder & CEO",
       bio: "Founder of Morrow Foundry, a technology portfolio built around innovation, experimentation, and real-world problem solving. Developing solutions across healthcare, AI, software, and emerging technologies.",
       projects: ["Lab Management System", "Hospital Management System", "Neuro Disorder Detection", "Sign Language Detection", "Be Fit AI"],
       showProjects: true,
@@ -221,7 +221,7 @@ export default function Team() {
           Meet Our Leadership
         </h2>
         <p style={{ fontSize: "13px", color: "#64748B", lineHeight: 1.6, maxWidth: "420px" }}>
-          Dedicated professionals driving innovation and excellence across all Medicxus Group initiatives.
+          A dedicated team of creative minds and technology experts turning ambitious ideas into exceptional digital experiences.
         </p>
       </div>
 

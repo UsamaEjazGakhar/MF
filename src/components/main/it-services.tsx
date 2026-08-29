@@ -17,7 +17,7 @@ export default function ITServices() {
   useEffect(() => {
     // Trigger animation
     const timer = setTimeout(() => setIsVisible(true), 300);
-    
+
     // Fetch projects
     const fetchProjects = async () => {
       try {
@@ -36,8 +36,8 @@ export default function ITServices() {
   }, []);
 
   return (
-    <section id="services" style={{ 
-      padding: "120px 64px", 
+    <section id="services" style={{
+      padding: "120px 64px",
       background: "linear-gradient(180deg,#F8FAFC 0%,#fff 100%)",
       overflow: "hidden",
     }}>
@@ -47,25 +47,25 @@ export default function ITServices() {
           fontSize: "14px", fontWeight: 700, letterSpacing: "3px",
           textTransform: "uppercase", color: "#14B8A6", marginBottom: "20px",
           display: "inline-block",
-          opacity: isVisible ? 1 : 0, 
+          opacity: isVisible ? 1 : 0,
           transform: isVisible ? "translateY(0) scale(1)" : "translateY(30px) scale(0.9)",
           transition: "all .8s cubic-bezier(.25,.8,.25,1) .1s",
         }}>IT Services</p>
         <h2 style={{
           fontSize: "clamp(36px,4.5vw,56px)", fontWeight: 800,
-          color: "#0F172A", letterSpacing: "-1.8px", lineHeight: 1.05, 
+          color: "#0F172A", letterSpacing: "-1.8px", lineHeight: 1.05,
           marginBottom: "24px",
-          opacity: isVisible ? 1 : 0, 
+          opacity: isVisible ? 1 : 0,
           transform: isVisible ? "translateY(0) scale(1)" : "translateY(30px) scale(0.9)",
           transition: "all .8s cubic-bezier(.25,.8,.25,1) .2s",
         }}>Healthcare Technology Suite</h2>
         <p style={{
           fontSize: "20px", color: "#64748B", lineHeight: 1.8,
-          opacity: isVisible ? 1 : 0, 
+          opacity: isVisible ? 1 : 0,
           transform: isVisible ? "translateY(0) scale(1)" : "translateY(30px) scale(0.9)",
           transition: "all .8s cubic-bezier(.25,.8,.25,1) .3s",
         }}>
-          Purpose-built digital solutions for hospitals, diagnostic labs, clinics and healthcare businesses.
+          Building digital experiences and intelligent solutions for businesses ready to move forward.
         </p>
       </div>
 
@@ -85,10 +85,10 @@ export default function ITServices() {
             href={`/api/redirect/${project.id}`}
             style={{
               border: "1px solid #E2E8F0", borderRadius: "20px", padding: "36px",
-              transition: "all .5s cubic-bezier(.25,.8,.25,1)", cursor: "pointer", 
-              position: "relative", background: "#fff", textDecoration: "none", 
+              transition: "all .5s cubic-bezier(.25,.8,.25,1)", cursor: "pointer",
+              position: "relative", background: "#fff", textDecoration: "none",
               display: "block", overflow: "hidden",
-              opacity: isVisible ? 1 : 0, 
+              opacity: isVisible ? 1 : 0,
               transform: isVisible ? "translateY(0) scale(1)" : "translateY(50px) scale(0.95)",
               transitionDelay: `${.4 + i * 0.12}s`,
             }}
@@ -110,24 +110,24 @@ export default function ITServices() {
               backgroundSize: "200% 200%",
               animation: "gradientShift 3s ease infinite",
             }}></div>
-            
+
             <span style={{
               fontSize: "11px", fontWeight: 700, letterSpacing: "2px",
               color: "#94A3B8", marginBottom: "22px", display: "block",
             }}>{String(i + 1).padStart(2, "0")}</span>
-            <span style={{ 
+            <span style={{
               fontSize: "40px", marginBottom: "18px", display: "block",
               transition: "transform .4s cubic-bezier(.25,.8,.25,1)",
             }} className="service-icon">
               {IT_ICONS[project.slug] || "💻"}
             </span>
-            <h3 style={{ 
-              fontSize: "19px", fontWeight: 700, color: "#0F172A", 
+            <h3 style={{
+              fontSize: "19px", fontWeight: 700, color: "#0F172A",
               marginBottom: "12px",
             }}>
               {project.title}
             </h3>
-            <p style={{ 
+            <p style={{
               fontSize: "15px", color: "#64748B", lineHeight: 1.75,
             }}>
               {project.description}
