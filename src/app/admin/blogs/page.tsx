@@ -36,7 +36,7 @@ export default function BlogsAdmin() {
     },
     {
       id: "3",
-      title: "Why Automation is Critical for Modern Diagnostics Labs",
+      title: "Why Automation is Critical for Modern Morrow Foundry Labs",
       author: "Engr. Usman Ghafoor",
       category: "Diagnostics / Lab Automation",
       status: "Published",

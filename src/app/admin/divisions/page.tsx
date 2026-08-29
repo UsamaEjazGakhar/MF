@@ -158,7 +158,7 @@ export default function DivisionsAdmin() {
             Business Divisions
           </h1>
           <p style={{ fontSize: "14px", color: "#94A3B8" }}>
-            Manage the core business verticals and operational pillars of Medicxus Group
+            Manage the core business verticals and operational pillars of Morrow Foundry
           </p>
         </div>
         <button
@@ -195,8 +195,8 @@ export default function DivisionsAdmin() {
                     <div style={{
                       width: "40px", height: "40px", borderRadius: "10px",
                       background: div.iconColor === "icon-blue" ? "rgba(15,76,129,.1)" :
-                                  div.iconColor === "icon-teal" ? "rgba(20,184,166,.1)" :
-                                  div.iconColor === "icon-amber" ? "rgba(245,158,11,.1)" : "rgba(168,85,247,.1)",
+                        div.iconColor === "icon-teal" ? "rgba(20,184,166,.1)" :
+                          div.iconColor === "icon-amber" ? "rgba(245,158,11,.1)" : "rgba(168,85,247,.1)",
                       display: "flex", alignItems: "center", justifyContent: "center", fontSize: "20px"
                     }}>
                       {div.icon}

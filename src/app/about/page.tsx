@@ -6,14 +6,12 @@ import Footer from "@/components/main/footer";
 const VALUES = [
   { icon: "💡", title: "Technology-First", desc: "Driving medical efficiency via AI-powered Hospital Management Systems and streamlined Lab tools." },
   { icon: "🌍", title: "Global Vision", desc: "Enabling students to pursue quality medical education globally through trusted MBBS partnerships." },
-  { icon: "🛡️", title: "Uncompromising Quality", desc: "Setting the gold standard in diagnostic accuracy and compassionate clinical care." },
+  { icon: "🛡️", title: "Uncompromising Quality", desc: "Setting the gold standard in Morrow Foundry accuracy and compassionate clinical care." },
   { icon: "🤝", title: "Empathetic Partnership", desc: "Unifying patients, students, institutions, and builders for collective well-being." },
 ];
 
 const LEADERSHIP = [
-  { name: "Dr. Farhan Qureshi", role: "Founder & Chief Executive Officer", bio: "A visionary medical pioneer dedicated to integrating Next-Gen diagnostics with clinical excellence.", avatar: "👨‍⚕️" },
-  { name: "Sarah Jenkins", role: "Chief Technology Officer", bio: "Leading our healthcare IT software solutions to empower digital transformation in South Asia.", avatar: "👩‍💻" },
-  { name: "Prof. Asif Ali", role: "Dean of Global Education", bio: "Architecting paths for students to succeed at the world's most prestigious medical universities.", avatar: "👨‍🏫" },
+  { name: "Usama Ejaz", role: "Founder & Chief Executive Officer", bio: "A visionary medical pioneer dedicated to integrating Next-Gen diagnostics with clinical excellence.", avatar: "👨‍⚕️" }
 ];
 
 export default function AboutPage() {
@@ -61,7 +59,7 @@ export default function AboutPage() {
             fontSize: "18px", color: "rgba(255,255,255,0.7)", lineHeight: 1.7,
             maxWidth: "680px", margin: "0 auto 36px"
           }}>
-            We are a highly diversified healthcare technology conglomerate uniting clinical diagnostics, medical academic programs, global student consultancy, and modern hospital management solutions.
+            We are a highly diversified healthcare technology conglomerate uniting clinical Morrow Foundry, medical academic programs, global student consultancy, and modern hospital management solutions
           </p>
         </div>
       </section>
@@ -84,15 +82,15 @@ export default function AboutPage() {
               Unifying Clinical Excellence with Cutting-Edge Digital Software
             </h2>
             <p style={{ fontSize: "16px", color: "#475569", lineHeight: 1.8, marginBottom: "20px" }}>
-              Founded with the goal of bridging critical gaps in healthcare systems, Medicxus Group has grown from a specialized laboratory network into a comprehensive ecosystem of healthcare, digital tools, and academic opportunities.
+              Founded with the goal of bridging critical gaps in healthcare systems, Morrow Foundry Group has grown from a specialized laboratory network into a comprehensive ecosystem of healthcare, digital tools, and academic opportunities.
             </p>
             <p style={{ fontSize: "16px", color: "#475569", lineHeight: 1.8, marginBottom: "32px" }}>
-              Today, our platforms serve thousands of diagnostics patients daily, support major healthcare organizations with robust HMS tools, and connect hundreds of aspiring doctors to fully certified medical universities worldwide.
+              Today, our platforms serve thousands of Morrow Foundry patients daily, support major healthcare organizations with robust HMS tools, and connect hundreds of aspiring doctors to fully certified medical universities worldwide.
             </p>
             <div style={{ display: "flex", gap: "24px" }}>
               <div>
                 <span style={{ fontSize: "36px", fontWeight: 800, color: "#0F4C81", display: "block" }}>99.9%</span>
-                <span style={{ fontSize: "13px", fontWeight: 600, color: "#64748B" }}>Diagnostic Accuracy</span>
+                <span style={{ fontSize: "13px", fontWeight: 600, color: "#64748B" }}>Morrow Foundry Accuracy</span>
               </div>
               <div style={{ borderLeft: "2px solid #E2E8F0", paddingLeft: "24px" }}>
                 <span style={{ fontSize: "36px", fontWeight: 800, color: "#14B8A6", display: "block" }}>15k+</span>

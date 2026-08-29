@@ -30,10 +30,10 @@ export default function SettingsAdmin() {
       const data = await res.json();
       if (data.success) {
         // Set state variables
-        setSeoTitle(data.data.seoTitle || "Medicxus Group");
+        setSeoTitle(data.data.seoTitle || "Morrow Foundry");
         setSeoDescription(data.data.seoDescription || "");
         setSeoKeywords(data.data.seoKeywords || "");
-        setContactEmail(data.data.contactEmail || "info@medicxus.com");
+        setContactEmail(data.data.contactEmail || "morrowfoundry2@gmail.com");
         setContactPhone(data.data.contactPhone || "");
         setContactAddress(data.data.contactAddress || "");
         setSocialLinkedin(data.data.socialLinkedin || "");
