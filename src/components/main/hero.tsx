@@ -1,4 +1,4 @@
- export default function Hero() {
+export default function Hero() {
   return (
     <section style={{
       background: "linear-gradient(135deg,#0B1220 0%,#0F2D4F 55%,#0a2540 100%)",
@@ -42,22 +42,23 @@
             width: "6px", height: "6px", background: "#14B8A6",
             borderRadius: "50%", display: "inline-block",
           }} />
-          Trusted Healthcare Technology Group &nbsp;—&nbsp; medicxus.com
+          Independent Technology & Innovation Studio &nbsp;—&nbsp; Morrow Foundry
         </div>
 
         {/* Heading */}
         <div className="animate-fade-up" style={{
           fontSize: "clamp(20px,2.5vw,32px)", fontWeight: 800, color: "#14B8A6", letterSpacing: "8px", marginBottom: "16px", textTransform: "uppercase"
         }}>
-          MEDICXUS GROUP
+          MORROW FOUNDRY
         </div>
         <h1 className="animate-fade-up" style={{
           fontSize: "clamp(42px,5.2vw,72px)", fontWeight: 900,
           lineHeight: 1.06, color: "#fff", letterSpacing: "-2.5px", marginBottom: "26px",
         }}>
-          Empowering<br />
-          <span style={{ color: "#14B8A6" }}>Healthcare.</span><br />
-          <span style={{ color: "#F59E0B" }}>Transforming</span> Lives.
+          Building<br />
+          <span style={{ color: "#14B8A6" }}>Ideas.</span><br />
+          <span style={{ color: "#F59E0B" }}>Shaping</span> the Future.
+
         </h1>
 
         {/* Subtitle */}
@@ -65,9 +66,8 @@
           fontSize: "18px", color: "rgba(255,255,255,.6)", lineHeight: 1.75,
           maxWidth: "560px", marginBottom: "44px", fontWeight: 300,
         }}>
-          Medicxus Group bridges world-class health education, advanced diagnostics,
-          international MBBS consultancy and cutting-edge healthcare IT&nbsp;—
-          all under one trusted roof.
+          Morrow Foundry brings together technology, creativity, and innovation —
+          turning ambitious ideas into meaningful digital products and experiences.
         </p>
 
         {/* Buttons */}
@@ -110,8 +110,8 @@
               </span>
             ))}
           </div>
-          </div>
         </div>
+      </div>
 
       <style>{`
 
