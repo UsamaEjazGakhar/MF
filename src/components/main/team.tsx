@@ -8,7 +8,7 @@ export default function Team() {
   const teamMembers = [
     {
       name: "Usama Ejaz",
-      role: "Founder and CEO - Morrow Foundry",
+      role: "Founder and CEO",
       bio: "Founder of Morrow Foundry, a technology portfolio built around innovation, experimentation, and real-world problem solving. Developing solutions across healthcare, AI, software, and emerging technologies.",
       projects: ["Lab Management System", "Hospital Management System", "Neuro Disorder Detection", "Sign Language Detection", "Be Fit AI"],
       showProjects: true,
