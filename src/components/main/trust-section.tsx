@@ -1,10 +1,15 @@
 const TRUST_ITEMS = [
   { icon: "✅", title: "Healthcare Certified", desc: "All divisions operate under international healthcare compliance and quality standards.", color: "icon-blue" },
   { icon: "🌐", title: "Global Reach", desc: "International MBBS network spanning 15+ countries and top-ranked medical universities.", color: "icon-teal" },
-  { icon: "💡", title: "Innovation Driven", desc: "Cutting-edge HMS and diagnostic tools built for modern healthcare operations.", color: "icon-amber" },
+  {
+    icon: "💡",
+    title: "Innovation Driven",
+    desc: "Building innovative digital products and solutions across healthcare, AI, software, gaming, and emerging technologies.",
+    color: "icon-amber"
+  },
   { icon: "📊", title: "Investment Ready", desc: "Structured governance, clear roadmap and scalable model for long-term growth.", color: "icon-purple" },
   { icon: "🎓", title: "Accredited Education", desc: "Health sciences programs aligned with international medical education boards.", color: "icon-blue" },
-  { icon: "🔬", title: "Precision Diagnostics", desc: "Advanced equipment and expert clinicians ensuring accurate, reliable results.", color: "icon-teal" },
+  { icon: "🔬", title: "Technology & Innovation", desc: "Developing intelligent digital solutions across healthcare, AI, software, gaming, and emerging technologies.", color: "icon-teal" },
 ];
 
 export default function TrustSection() {
@@ -13,16 +18,16 @@ export default function TrustSection() {
       <p style={{
         fontSize: "12px", fontWeight: 700, letterSpacing: "2.5px",
         textTransform: "uppercase", color: "#14B8A6", marginBottom: "8px",
-      }}>Trusted Healthcare Technology Group — medicxus.com</p>
+      }}>Independent Technology & Innovation Studio — Morrow Foundry</p>
       <h2 style={{
         fontSize: "clamp(28px,3.5vw,42px)", fontWeight: 800,
         color: "#0F172A", letterSpacing: "-1.5px", lineHeight: 1.2, marginBottom: "8px",
-      }}>Empowering Healthcare.<br/>Transforming Lives.</h2>
+      }}>Building Ideas.<br />Shaping the Future.</h2>
       <p style={{
         fontSize: "14px", color: "#475569", lineHeight: 1.6, marginBottom: "12px",
-      }}>Medicxus Group bridges world-class health education, advanced diagnostics, international MBBS consultancy and cutting‑edge healthcare IT — all under one trusted roof.</p>
-      <a href="/divisions" style={{fontSize: "14px", color: "#14B8A6", textDecoration: "none", marginRight: "16px"}}>Explore Our Divisions ↗</a>
-      <a href="/about" style={{fontSize: "14px", color: "#14B8A6", textDecoration: "none"}}>Learn About Us</a>
+      }}>Morrow Foundry brings together technology, creativity, and innovation to build impactful digital products across healthcare, AI, software, gaming, and beyond.</p>
+      <a href="/divisions" style={{ fontSize: "14px", color: "#14B8A6", textDecoration: "none", marginRight: "16px" }}>Explore Our Divisions ↗</a>
+      <a href="/about" style={{ fontSize: "14px", color: "#14B8A6", textDecoration: "none" }}>Learn About Us</a>
 
       <div style={{
         display: "grid", gridTemplateColumns: "repeat(3,1fr)",
