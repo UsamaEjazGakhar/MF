@@ -42,10 +42,7 @@ export default function Navbar() {
         }}>M</div>
         <div style={{ display: "flex", flexDirection: "column", lineHeight: 1 }}>
           <span style={{ fontSize: "19px", fontWeight: 800, color: "#0F4C81", letterSpacing: "-0.5px" }}>
-            Medic<span style={{ color: "#14B8A6" }}>xus</span>
-          </span>
-          <span style={{ fontSize: "10px", fontWeight: 600, letterSpacing: "2px", color: "#94A3B8", textTransform: "uppercase" }}>
-            Group
+            Morrow <span style={{ color: "#14B8A6" }}>Foundry</span>
           </span>
         </div>
       </Link>
@@ -198,7 +195,7 @@ export default function Navbar() {
         ))}
       </ul>
 
-        <style>{`
+      <style>{`
           @media (max-width: 900px) {
             nav { padding: 0 24px !important; }
             .desktop-nav { display: none !important; }
