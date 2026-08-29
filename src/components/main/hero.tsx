@@ -98,7 +98,7 @@ export default function Hero() {
           </span>
 
           <div style={{ display: "flex", gap: "10px", flexWrap: "wrap" }}>
-            {["Hospitals", "Medical Students", "Diagnostic Labs", "Healthcare IT Teams"].map((chip) => (
+            {["Businesses", "Creators", "Investors", "Technology Partners"].map((chip) => (
               <span key={chip} style={{
                 display: "inline-flex", alignItems: "center", gap: "6px",
                 background: "rgba(255,255,255,.06)", border: "1px solid rgba(255,255,255,.1)",
