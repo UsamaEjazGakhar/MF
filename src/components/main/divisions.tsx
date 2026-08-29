@@ -60,7 +60,7 @@ export default function Divisions() {
           <p className="divisions-subtitle">Our Divisions</p>
           <h2 className="divisions-title">Four Pillars of Excellence</h2>
           <p className="divisions-text">
-            A diversified healthcare group built to serve patients, professionals, students and technology partners worldwide.
+            A technology and innovation venture building digital solutions across healthcare, AI, software, gaming, and beyond.
           </p>
         </div>
         <a href="#" className="view-all-link">View All Divisions →</a>
