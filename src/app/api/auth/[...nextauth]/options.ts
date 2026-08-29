@@ -31,7 +31,7 @@ export const authOptions: NextAuthOptions = {
   }),
   providers: [
     CredentialsProvider({
-      name: "Medicxus Control Portal",
+      name: "Morrow Foundry Panel",
       credentials: {
         username: { label: "Username", type: "text" },
         password: { label: "Password", type: "password" },

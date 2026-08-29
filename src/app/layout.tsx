@@ -23,23 +23,23 @@ const dmSans = DM_Sans({
 });
 
 export const metadata: Metadata = {
-  title: "Medicxus Group – Empowering Healthcare. Transforming Lives.",
+  title: "Morrow Foundry — Building Ideas. Shaping the Future.",
   description:
-    "Medicxus Group is a diversified healthcare technology conglomerate uniting education, diagnostics, MBBS consultancy and IT solutions for a healthier world.",
-  metadataBase: new URL("https://medicxus.com"),
+    "Morrow Foundry is a technology and innovation venture creating digital products across healthcare, AI, software, gaming, and beyond.",
+  metadataBase: new URL("https://morrowfoundry.com"),
   openGraph: {
-    title: "Medicxus Group",
-    description: "Empowering Healthcare. Transforming Lives.",
-    url: "https://medicxus.com",
-    siteName: "Medicxus Group Portal",
-    images: [{ url: "/assets/og-image.jpg", width: 1200, height: 630, alt: "Medicxus Group" }],
+    title: "Morrow Foundry",
+    description: "Where Ideas Become Innovation.",
+    url: "https://morrowfoundry.com",
+    siteName: "Morrow Foundry Portal",
+    images: [{ url: "/assets/og-image.jpg", width: 1200, height: 630, alt: "Morrow Foundry" }],
     locale: "en_US",
     type: "website",
   },
   twitter: {
     card: "summary_large_image",
-    title: "Medicxus Group",
-    description: "Empowering Healthcare. Transforming Lives.",
+    title: "Morrow Foundry",
+    description: "Where Ideas Become Innovation.",
     images: ["/assets/og-image.jpg"],
   },
   robots: { index: true, follow: true },
@@ -47,9 +47,9 @@ export const metadata: Metadata = {
 
 const jsonLd = {
   "@context": "https://schema.org",
-  "@type": "MedicalOrganization",
-  name: "Medicxus Group",
-  url: "https://medicxus.com",
+  "@type": "TECHOrganization",
+  name: "Morrow Foundry",
+  url: "https://morrowfoundry.com",
   logo: "https://medicxus.com/assets/logo.png",
   sameAs: [
     "https://linkedin.com/company/medicxus",
@@ -58,8 +58,8 @@ const jsonLd = {
   ],
   department: [
     { "@type": "EducationalOrganization", name: "Care Institute of Health Sciences" },
-    { "@type": "MedicalBusiness", name: "Medicxus Diagnostic" },
-    { "@type": "Organization", name: "Study Abroad MBBS Project" },
+    { "@type": "TechBusiness", name: "Morrow Foundry" },
+    { "@type": "Organization", name: "Study Abroad Project" },
     { "@type": "Organization", name: "Healthcare IT Solutions" },
   ],
 };

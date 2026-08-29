@@ -44,8 +44,8 @@ export default function LoginPage() {
     });
 
     if (result?.error) {
-      const message = result.error === "CredentialsSignin" 
-        ? "Invalid username or password, or your account is pending approval or restricted" 
+      const message = result.error === "CredentialsSignin"
+        ? "Invalid username or password, or your account is pending approval or restricted"
         : result.error;
       setError(message);
       setLoading(false);
@@ -589,24 +589,24 @@ export default function LoginPage() {
               >
                 Password
               </label>
-                <input
-                  type="password"
-                  value={signupPassword}
-                  onChange={(e) => setSignupPassword(e.target.value)}
-                  required
-                  style={{
-                    width: "100%",
-                    padding: "12px 16px",
-                    background: "rgba(255,255,255,.06)",
-                    border: "1px solid rgba(255,255,255,.12)",
-                    borderRadius: "10px",
-                    color: "#fff",
-                    fontSize: "14px",
-                    outline: "none",
-                    transition: "border-color .2s",
-                  }}
-                  placeholder="Create a password"
-                />
+              <input
+                type="password"
+                value={signupPassword}
+                onChange={(e) => setSignupPassword(e.target.value)}
+                required
+                style={{
+                  width: "100%",
+                  padding: "12px 16px",
+                  background: "rgba(255,255,255,.06)",
+                  border: "1px solid rgba(255,255,255,.12)",
+                  borderRadius: "10px",
+                  color: "#fff",
+                  fontSize: "14px",
+                  outline: "none",
+                  transition: "border-color .2s",
+                }}
+                placeholder="Create a password"
+              />
             </div>
 
             <button
@@ -640,7 +640,7 @@ export default function LoginPage() {
             color: "rgba(255,255,255,.25)",
           }}
         >
-          Medicxus Group © 2026
+          Morrow Foundry © 2026
         </p>
       </div>
     </div>

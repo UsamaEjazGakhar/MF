@@ -14,30 +14,21 @@ const BENEFITS = [
 const JOBS = [
   {
     id: "hms-dev",
-    title: "Senior Full-Stack Engineer (HMS Platform)",
+    title: "Senior Full-Stack Engineer",
     department: "IT Services & Solutions",
-    location: "Lahore, PK (Hybrid)",
+    location: "US (Hybrid)",
     type: "Full-Time",
     experience: "4-6 Years",
     desc: "Scale our custom-built hospital information software and lead high-availability clinic management integrations.",
   },
   {
     id: "diag-con",
-    title: "Clinical Diagnostic Consultant",
-    department: "Medicxus Diagnostics",
-    location: "Islamabad, PK (On-site)",
+    title: "TECH",
+    department: "Morrow Foundry",
+    location: "US",
     type: "Full-Time",
-    experience: "3+ Years",
-    desc: "Oversee operational workflow, clinical audit compliance, and partner with clinicians for accuracy evaluations.",
-  },
-  {
-    id: "edu-counselor",
-    title: "Senior Academic Consultant (MBBS Abroad)",
-    department: "Education Consultancy",
-    location: "Karachi, PK (Hybrid)",
-    type: "Full-Time",
-    experience: "2-4 Years",
-    desc: "Assist outstanding student candidates in enrolling with top-tier international partner medical universities.",
+    experience: "5+ Years",
+    desc: "Development of Software Products and its Services.",
   },
 ];
 
@@ -80,7 +71,7 @@ export default function CareersPage() {
           <p style={{
             fontSize: "13px", fontWeight: 700, letterSpacing: "3px",
             color: "#14B8A6", textTransform: "uppercase", marginBottom: "16px"
-          }}>Careers at Medicxus</p>
+          }}>Careers at Morrow Foundry</p>
           <h1 style={{
             fontSize: "clamp(32px, 5vw, 52px)", fontWeight: 900, color: "#fff",
             letterSpacing: "-1.5px", lineHeight: 1.15, marginBottom: "20px"
@@ -149,7 +140,7 @@ export default function CareersPage() {
               letterSpacing: "-1px", marginBottom: "16px"
             }}>Currently Active Roles</h2>
             <p style={{ fontSize: "15px", color: "#64748B", maxWidth: "580px", margin: "0 auto" }}>
-              Explore our openings below. If you don&apos;t see an exact match but feel you belong at Medicxus, send your pitch to <strong>hr@medicxus.com</strong>.
+              Explore our openings below. If you don&apos;t see an exact match but feel you belong at Morrow Foundry, send your pitch to <strong>morrowfoundry2@gmail.com</strong>
             </p>
           </div>
 
@@ -166,7 +157,7 @@ export default function CareersPage() {
                 gap: "16px",
                 transition: "all 0.2s ease"
               }}
-              className="job-row"
+                className="job-row"
               >
                 <div style={{ display: "flex", justifyContent: "space-between", alignItems: "flex-start", flexWrap: "wrap", gap: "12px" }}>
                   <div>
@@ -188,7 +179,7 @@ export default function CareersPage() {
                 </div>
 
                 <p style={{ fontSize: "14px", color: "#475569", lineHeight: 1.6, margin: 0 }}>{job.desc}</p>
-                
+
                 <button
                   type="button"
                   onClick={() => setSelectedJob(job.title)}

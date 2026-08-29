@@ -132,7 +132,7 @@ export default function SettingsAdmin() {
                   type="text"
                   value={seoKeywords}
                   onChange={(e) => setSeoKeywords(e.target.value)}
-                  placeholder="e.g. MBBS, healthcare, diagnostics"
+                  placeholder="Morrow Foundry"
                   style={{ width: "100%", padding: "10px", border: "1px solid #E2E8F0", borderRadius: "8px" }}
                 />
               </div>

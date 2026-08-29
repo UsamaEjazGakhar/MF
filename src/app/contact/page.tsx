@@ -43,7 +43,7 @@ export default function ContactPage() {
             fontSize: "17px", color: "rgba(255,255,255,0.75)", lineHeight: 1.7,
             maxWidth: "640px", margin: "0 auto"
           }}>
-            Have questions about clinical diagnostics, international medical education, HMS tools, or partner collaborations? Write to us below.
+            Have questions about clinical Morrow Foundry, international medical education, HMS tools, or partner collaborations? Write to us below.
           </p>
         </div>
       </section>
@@ -54,7 +54,7 @@ export default function ContactPage() {
           maxWidth: "1200px", margin: "0 auto", display: "grid",
           gridTemplateColumns: "1.1fr 1fr", gap: "80px", alignItems: "start"
         }}
-        className="contact-grid"
+          className="contact-grid"
         >
           {/* Left Column: Direct Coordinates */}
           <div>
@@ -125,7 +125,7 @@ export default function ContactPage() {
             padding: "48px",
             boxShadow: "0 10px 30px rgba(0,0,0,0.02)"
           }}
-          className="form-wrapper"
+            className="form-wrapper"
           >
             <h3 style={{ fontSize: "22px", fontWeight: 800, color: "#0F172A", marginBottom: "8px" }}>Send a Message</h3>
             <p style={{ fontSize: "14px", color: "#64748B", marginBottom: "32px", lineHeight: 1.6 }}>
