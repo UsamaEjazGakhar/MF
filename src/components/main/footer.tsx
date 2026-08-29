@@ -46,11 +46,11 @@ export default function Footer() {
               color: "#fff", fontWeight: 900, fontSize: "16px", fontStyle: "italic",
             }}>M</div>
             <div style={{ fontSize: "18px", fontWeight: 800, color: "#fff" }}>
-              Medic<span style={{ color: "#14B8A6" }}>xus</span> Group
+              Morrow <span style={{ color: "#14B8A6" }}>Foundry</span>
             </div>
           </div>
           <p style={{ fontSize: "14px", color: "rgba(255,255,255,.4)", lineHeight: 1.7, marginBottom: "24px" }}>
-            A diversified healthcare technology group uniting education, diagnostics, consultancy and IT solutions for a healthier world.
+            An independent technology and innovation studio building digital products across healthcare, AI, software, gaming and emerging technologies.
           </p>
           <div style={{ display: "flex", gap: "10px" }}>
             {SOCIALS.map((s) => (
