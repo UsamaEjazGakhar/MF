@@ -55,7 +55,7 @@ export default function Hero() {
           fontSize: "clamp(42px,5.2vw,72px)", fontWeight: 900,
           lineHeight: 1.06, color: "#fff", letterSpacing: "-2.5px", marginBottom: "26px",
         }}>
-          Building<br />
+          Imagining. Building.<br />
           <span style={{ color: "#14B8A6" }}>Ideas.</span><br />
           <span style={{ color: "#F59E0B" }}>Shaping</span> the Future.
 
