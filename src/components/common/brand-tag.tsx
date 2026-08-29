@@ -12,6 +12,6 @@ export const BrandTag = () => (
       textTransform: "uppercase",
     }}
   >
-    MEDICXUS GROUP
+    MORROW FOUNDRY
   </div>
 );

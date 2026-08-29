@@ -24,9 +24,7 @@ export default function AboutBand() {
           <p className="about-subtitle">Who We Are</p>
           <h2 className="about-title">A Group Built for<br />Tomorrow&apos;s Healthcare</h2>
           <p className="about-text">
-            Medicxus Group is a next-generation healthcare conglomerate committed to excellence across
-            education, diagnostics, consultancy, and technology. We are investment-ready, globally connected,
-            and locally committed.
+            Morrow Foundry is a next-generation technology and innovation venture building solutions across healthcare, AI, software, gaming, and emerging technologies. We transform bold ideas into meaningful digital products with a global vision.
           </p>
 
           {/* Mini Stats */}

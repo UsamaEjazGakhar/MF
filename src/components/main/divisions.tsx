@@ -4,7 +4,7 @@ import Link from "next/link";
 const divisionsData = [
   {
     id: "1",
-    title: "Enterprise Lab Management System",
+    title: "Lab Management System",
     slug: "serve-institute-of-health-sciences",
     description: "Software for managing labs covering all important aspects.",
     icon: "🎓",
@@ -14,9 +14,9 @@ const divisionsData = [
   },
   {
     id: "2",
-    title: "Medicxus Diagnostic",
-    slug: "medicxus-diagnostic",
-    description: "Advanced diagnostic services combining precision technology with compassionate patient care for accurate and timely results.",
+    title: "Morrow Foundry",
+    slug: "morrow-foundry",
+    description: "An independent technology and innovation portfolio building digital solutions across healthcare, AI, software, gaming, and emerging technologies.",
     icon: "🏥",
     iconColor: "icon-teal",
     sortOrder: 2,
@@ -26,7 +26,7 @@ const divisionsData = [
     id: "3",
     title: "Study Abroad Next Project",
     slug: "study-abroad-next-project",
-    description: "Guiding studets to the world's finest medical universities with end-to-end admission and visa support for BDS, MBBS, and PHD programs.",
+    description: "Guiding studets to the world's finest universities with end-to-end admission and visa support.",
     icon: "🌍",
     iconColor: "icon-amber",
     sortOrder: 3,
@@ -34,7 +34,7 @@ const divisionsData = [
   },
   {
     id: "4",
-    title: "Enterprise Hospital Management System",
+    title: "Hospital Management System",
     slug: "hospital-management-system-phc",
     description: "Enterprise Level SAAS-based hospital management system designed specifically for PHC (Primary Health Center) format, streamlining operations for healthcare facilities.",
     icon: "💻",

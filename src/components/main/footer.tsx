@@ -2,8 +2,7 @@ import Link from "next/link";
 
 const FOOTER_DIVISIONS = [
   { label: "Care Institute", href: "#" },
-  { label: "Medicxus Diagnostic", href: "#" },
-  { label: "MBBS Abroad", href: "#" },
+  { label: "Morrow Foundry", href: "#" },
   { label: "IT Services", href: "#" },
 ];
 
@@ -11,7 +10,6 @@ const FOOTER_PRODUCTS = [
   { label: "Hospital Software", href: "#" },
   { label: "Lab Management", href: "#" },
   { label: "Web Development", href: "#" },
-  { label: "Digital Marketing", href: "#" },
 ];
 
 const FOOTER_COMPANY = [

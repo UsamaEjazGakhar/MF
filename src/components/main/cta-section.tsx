@@ -17,11 +17,11 @@ export default function CtaSection() {
       <h2 style={{
         fontSize: "clamp(32px,4vw,52px)", fontWeight: 900, color: "#fff",
         letterSpacing: "-2px", marginBottom: "18px", position: "relative", zIndex: 2,
-      }}>Ready to Build the Future of Healthcare Together?</h2>
+      }}>Ready to Build the Future Together?</h2>
       <p style={{
         fontSize: "18px", color: "rgba(255,255,255,.65)",
         maxWidth: "500px", margin: "0 auto 40px", lineHeight: 1.7, position: "relative", zIndex: 2,
-      }}>Whether you are a student, hospital, investor, or technology partner — Medicxus Group has a place for you.</p>
+      }}>Whether you are a client, creator, investor, or technology partner — Morrow Foundry is where ideas become reality.</p>
 
       <div style={{
         background: "rgba(255,255,255,.95)", borderRadius: "20px", padding: "48px",

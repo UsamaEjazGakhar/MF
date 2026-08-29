@@ -5,7 +5,7 @@ export default function LoadingOverlay() {
   return (
     <div style={overlayStyle}>
       <div style={spinnerStyle} />
-      <div style={textStyle}>Medicxus Group</div>
+      <div style={textStyle}>Morrow Foundry</div>
     </div>
   );
 }

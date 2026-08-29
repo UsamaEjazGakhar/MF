@@ -7,20 +7,8 @@ const PRESS_RELEASES = [
   {
     date: "June 01, 2026",
     category: "Product Launch",
-    title: "Medicxus Group Introduces AI-Driven Hospital Analytics Suite",
-    desc: "Our IT Services division launches a fully integrated diagnostic reporting engine, cutting hospital clinical entry times by up to 40% with predictive charting.",
-  },
-  {
-    date: "April 18, 2026",
-    category: "Academic Partnership",
-    title: "Medicxus Expands European MBBS Footprint with 4 New Universities",
-    desc: "Establishing elite bilateral student transfers and fully-accredited residency pathways in Spain, Italy, and Poland starting Fall 2026.",
-  },
-  {
-    date: "February 09, 2026",
-    category: "Corporate Milestone",
-    title: "Medicxus Diagnostics Reaches 1 Million Completed Patient Reports",
-    desc: "Celebrating a milestone of trust and exceptional reliability, supported by our regional labs and automated high-throughput chemistry instrumentation.",
+    title: "Morrow Foundry brigs tech-driven solutions to life",
+    desc: "Morrow Foundry develops innovative digital solutions across healthcare, AI, software, gaming, and emerging technologies, turning ideas into real-world products.",
   },
 ];
 
@@ -80,7 +68,7 @@ export default function PressPage() {
                 borderBottom: "1px solid #E2E8F0",
                 paddingBottom: "40px",
               }}
-              className="press-row"
+                className="press-row"
               >
                 <div>
                   <span style={{ fontSize: "14px", fontWeight: 600, color: "#64748B", display: "block", marginBottom: "8px" }}>
@@ -133,7 +121,7 @@ export default function PressPage() {
           borderRadius: "24px", padding: "64px", color: "#fff", display: "grid", gridTemplateColumns: "1.2fr 1fr", gap: "60px",
           alignItems: "center", boxShadow: "0 20px 40px rgba(15,76,129,0.15)"
         }}
-        className="kit-grid"
+          className="kit-grid"
         >
           <div>
             <h2 style={{ fontSize: "clamp(24px, 3vw, 34px)", fontWeight: 900, letterSpacing: "-1px", marginBottom: "16px" }}>
