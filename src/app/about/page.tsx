@@ -20,7 +20,7 @@ export default function AboutPage() {
   return (
     <>
       <Navbar />
-      
+
       {/* Hero Section */}
       <section style={{
         background: "linear-gradient(135deg, #0B1220 0%, #0F2D4F 100%)",
@@ -45,7 +45,7 @@ export default function AboutPage() {
           <p style={{
             fontSize: "13px", fontWeight: 700, letterSpacing: "3px",
             color: "#14B8A6", textTransform: "uppercase", marginBottom: "16px"
-          }}>About Medicxus Group</p>
+          }}>About Morrow Foundry</p>
           <h1 style={{
             fontSize: "clamp(32px, 5vw, 54px)", fontWeight: 900, color: "#fff",
             letterSpacing: "-1.5px", lineHeight: 1.15, marginBottom: "20px"
@@ -127,7 +127,7 @@ export default function AboutPage() {
                 To transform and democratize global healthcare access through scalable, user-centric technology and world-class educational pathways.
               </p>
             </div>
-            
+
             <div style={{
               background: "#0F4C81",
               borderRadius: "16px",
@@ -174,7 +174,7 @@ export default function AboutPage() {
                 transition: "all 0.3s ease",
                 boxShadow: "0 4px 6px -1px rgba(0,0,0,0.02), 0 2px 4px -1px rgba(0,0,0,0.01)"
               }}
-              className="val-card"
+                className="val-card"
               >
                 <div style={{ fontSize: "36px", marginBottom: "20px" }}>{val.icon}</div>
                 <h3 style={{ fontSize: "18px", fontWeight: 700, color: "#0F172A", marginBottom: "12px" }}>{val.title}</h3>
