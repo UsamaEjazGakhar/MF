@@ -8,9 +8,9 @@ export default function Team() {
   const teamMembers = [
     {
       name: "Usama Ejaz",
-      role: "IT Head - Medicxus Group",
-      bio: "Oversees all IT operations, project development, and technical strategy. Partner in both Lab Management and Hospital Management System projects, serving as Product Owner for these initiatives.",
-      projects: ["Lab Management System", "Hospital Management System"],
+      role: "Founder and CEO - Morrow Foundry",
+      bio: "Founder of Morrow Foundry, a technology portfolio built around innovation, experimentation, and real-world problem solving. Developing solutions across healthcare, AI, software, and emerging technologies.",
+      projects: ["Lab Management System", "Hospital Management System", "Neuro Disorder Detection", "Sign Language Detection", "Be Fit AI"],
       showProjects: true,
       image: "/teamphotos/usamapic.jpeg",
       color: "#14B8A6",
