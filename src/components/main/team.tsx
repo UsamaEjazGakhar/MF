@@ -6,7 +6,7 @@ export default function Team() {
   const [hoveredIndex, setHoveredIndex] = useState<number | null>(null);
 
   const teamMembers = [
-      {
+    {
       name: "Usama Ejaz",
       role: "IT Head - Medicxus Group",
       bio: "Oversees all IT operations, project development, and technical strategy. Partner in both Lab Management and Hospital Management System projects, serving as Product Owner for these initiatives.",
@@ -16,116 +16,20 @@ export default function Team() {
       color: "#14B8A6",
       objectPosition: "top",
     },
-    {
-      name: "Mr. Maqsood Awan",
-      role: "CEO - Medicxus Diagnostics",
-      bio: "As the Chief Executive Officer of Medicxus Diagnostic Lab, a part of Medicxus Group, he oversees the laboratory’s management, strategic planning, and overall operations, ensuring its continued growth and excellence in diagnostic healthcare services.",
-      projects: [],
-      showProjects: false,
-      image: "/teamphotos/image9.png",
-      color: "#0F4C81",
-      objectPosition: "center 15%",
-    },
-    {
-      name: "Maqsood Gul",
-      role: "Director - Medicxus Group",
-      bio: "Leads management, marketing, and business development. Specializes in the Study Abroad Next Project, driving its growth and partnerships across educational institutions worldwide. Partner in both Lab Management and Hospital Management System projects, serving as Product Owner for these initiatives.",
-      projects: ["Study Abroad Next Project", "Lab Management System", "Hospital Management System"],
-      showProjects: true,
-      image: "/teamphotos/maqsoodpic.jpeg",
-      color: "#0F4C81",
-      objectPosition: "top",
-    },
-    {
-      name: "Asst. Prof. Dr. Aaminah",
-      role: "MBBS, M.Phil Histopathology",
-      bio: "Brings specialized expertise in histopathology, contributing to accurate diagnostic assessment and academic excellence within the Medicxus Group's healthcare initiatives.",
-      projects: [],
-      showProjects: false,
-      image: "/teamphotos/image1.png",
-      color: "#0F4C81",
-      objectPosition: "top",
-    },
-    {
-      name: "Dr. Asim Munir",
-      role: "Microbiologist",
-      bio: "M.Phil., Ph.D., Postdoctoral Researcher (Microbiology). Provides expert microbiological analysis and research support, contributing to the diagnostic accuracy and scientific excellence of the Medicxus Group's laboratory services. Expertise includes antimicrobial resistance (AMR), microbial genomics, molecular epidemiology, plasmid biology, and One Health research.",
-      projects: [],
-      showProjects: false,
-      image: "/teamphotos/image8.png",
-      color: "#14B8A6",
-      objectPosition: "top",
-    },
-    {
-      name: "Dr. M. A. Yousaf",
-      role: "MBBS, RMP 1987 | Diploma in Anesthesia & Pain Medicine, Yale University",
-      bio: "Graduated in 1987 with nearly four decades of clinical experience. Completed residency training in anesthesiology and pain medicine at Yale University, later practicing in the United States and Australia in senior clinical leadership roles. Since 2021, has served in maritime medicine aboard vessels ranging from under 200 to over 8,000 passengers and crew, delivering care across all seven continents and five oceans, including Antarctica and the Arctic.",
-      projects: [],
-      showProjects: false,
-      image: "/teamphotos/image10.png",
-      color: "#0F4C81",
-      objectPosition: "top",
-    },
-    {
-      name: "Muhammad Luqman",
-      role: "PhD Molecular Biology",
-      bio: "Brings advanced research expertise in molecular biology, supporting scientific and diagnostic initiatives across the Medicxus Group.",
-      projects: [],
-      showProjects: false,
-      image: "/teamphotos/image7.png",
-      color: "#0F4C81",
-      objectPosition: "top",
-    },
-    {
-      name: "Muhammad Tanveer",
-      role: "MSc Microbiology",
-      bio: "Contributes specialized microbiology expertise, supporting laboratory operations and diagnostic accuracy within the Medicxus Group's healthcare projects.",
-      projects: [],
-      showProjects: false,
-      image: "/teamphotos/image3.png",
-      color: "#0F4C81",
-      objectPosition: "top",
-    },
-    {
-      name: "Dr. Hadayat-Ullah",
-      role: "Cardiologist",
-      bio: "MBBS, FCPS Cardiology. Delivers specialized cardiac care and consultation, strengthening the clinical expertise of the Medicxus Group's healthcare team.",
-      projects: [],
-      showProjects: false,
-      image: "/teamphotos/image6.png",
-      color: "#14B8A6",
-      objectPosition: "top",
-    },
-    {
-      name: "Dr. Kazim Raza",
-      role: "Head of Patient Care Department",
-      bio: "MBBS. Leads the Patient Care Department, ensuring quality service delivery and patient satisfaction across the Medicxus Group's healthcare facilities.",
-      projects: [],
-      showProjects: false,
-      image: "/teamphotos/image4.png",
-      color: "#14B8A6",
-      objectPosition: "top",
-    },
-    {
-      name: "Dr. Ahtesham",
-      role: "Physiotherapist",
-      bio: "DPT. Provides expert physiotherapy services, helping patients recover mobility and improve quality of life within the Medicxus Group's healthcare network.",
-      projects: [],
-      showProjects: false,
-      image: "/teamphotos/image5.png",
-      color: "#0F4C81",
-      objectPosition: "top",
-    },
+    // {
+    //   name: "Mr. Maqsood Awan",
+    //   role: "CEO - Medicxus Diagnostics",
+    //   bio: "As the Chief Executive Officer of Medicxus Diagnostic Lab, a part of Medicxus Group, he oversees the laboratory's management, strategic planning, and overall operations, ensuring its continued growth and excellence in diagnostic healthcare services.",
+    //   projects: [],
+    //   showProjects: false,
+    //   image: "/teamphotos/image9.png",
+    //   color: "#0F4C81",
+    //   objectPosition: "center 15%",
+    // },
   ];
 
-  // Split into rows: 3, then 3, then 3, then 3
-  const rows: (typeof teamMembers)[] = [];
-  const rowSizes = [3, 3, 3, 3];
-  let cursor = 0;
-  for (const size of rowSizes) {
-    rows.push(teamMembers.slice(cursor, cursor + size));
-    cursor += size;
-  }
+  // Single row containing all active members
+  const rows: (typeof teamMembers)[] = [teamMembers];
 
   const renderCard = (member: (typeof teamMembers)[number], index: number) => (
     <div
@@ -321,7 +225,7 @@ export default function Team() {
         </p>
       </div>
 
-      {/* Team Rows: 3 - 3 - 3 - 3 */}
+      {/* Team Row */}
       <div
         style={{
           display: "flex",
@@ -332,8 +236,7 @@ export default function Team() {
         }}
       >
         {rows.map((row, rowIndex) => {
-          // compute global start index for this row (for hoveredIndex tracking)
-          const startIndex = rowSizes.slice(0, rowIndex).reduce((a, b) => a + b, 0);
+          const startIndex = 0;
           return (
             <div
               key={rowIndex}
