@@ -1,15 +1,15 @@
 const TRUST_ITEMS = [
-  { icon: "✅", title: "Healthcare Certified", desc: "All divisions operate under international healthcare compliance and quality standards.", color: "icon-blue" },
-  { icon: "🌐", title: "Global Reach", desc: "International MBBS network spanning 15+ countries and top-ranked medical universities.", color: "icon-teal" },
+  { icon: "✨", title: "User-Centric Design", desc: "Creating intuitive software interfaces that make daily tasks simple and enjoyable.", color: "icon-blue" },
+  { icon: "📈", title: "Scalable Architecture", desc: "Building robust platforms that grow effortlessly alongside your expanding needs.", color: "icon-teal" },
   {
     icon: "💡",
-    title: "Innovation Driven",
-    desc: "Building innovative digital products and solutions across healthcare, AI, software, gaming, and emerging technologies.",
+    title: "Continuous Innovation",
+    desc: "Leveraging the latest technologies to develop next-generation digital solutions.",
     color: "icon-amber"
   },
-  { icon: "📊", title: "Investment Ready", desc: "Structured governance, clear roadmap and scalable model for long-term growth.", color: "icon-purple" },
-  { icon: "🎓", title: "Accredited Education", desc: "Health sciences programs aligned with international medical education boards.", color: "icon-blue" },
-  { icon: "🔬", title: "Technology & Innovation", desc: "Developing intelligent digital solutions across healthcare, AI, software, gaming, and emerging technologies.", color: "icon-teal" },
+  { icon: "🌍", title: "Global Accessibility", desc: "Delivering cloud-based software accessible anytime, anywhere, for everyone.", color: "icon-purple" },
+  { icon: "🛡️", title: "Security First", desc: "Ensuring top-tier data protection and privacy standards across all our applications.", color: "icon-blue" },
+  { icon: "🚀", title: "Infinite Potential", desc: "Continuously evolving our product ecosystem with a clear vision for long-term growth.", color: "icon-teal" },
 ];
 
 export default function TrustSection() {
@@ -18,15 +18,15 @@ export default function TrustSection() {
       <p style={{
         fontSize: "12px", fontWeight: 700, letterSpacing: "2.5px",
         textTransform: "uppercase", color: "#14B8A6", marginBottom: "8px",
-      }}>Independent Technology & Innovation Studio — Morrow Foundry</p>
+      }}>Innovative Software Studio — Morrow Foundry</p>
       <h2 style={{
         fontSize: "clamp(28px,3.5vw,42px)", fontWeight: 800,
         color: "#0F172A", letterSpacing: "-1.5px", lineHeight: 1.2, marginBottom: "8px",
       }}>Building Ideas.<br />Shaping the Future.</h2>
       <p style={{
         fontSize: "14px", color: "#475569", lineHeight: 1.6, marginBottom: "12px",
-      }}>Morrow Foundry brings together technology, creativity, and innovation to build impactful digital products across healthcare, AI, software, gaming, and beyond.</p>
-      <a href="/divisions" style={{ fontSize: "14px", color: "#14B8A6", textDecoration: "none", marginRight: "16px" }}>Explore Our Divisions ↗</a>
+      }}>Morrow Foundry brings together technology, creativity, and innovation to build impactful software products designed to enhance and simplify everyday life.</p>
+      <a href="/projects" style={{ fontSize: "14px", color: "#14B8A6", textDecoration: "none", marginRight: "16px" }}>Explore Our Projects ↗</a>
       <a href="/about" style={{ fontSize: "14px", color: "#14B8A6", textDecoration: "none" }}>Learn About Us</a>
 
       <div style={{

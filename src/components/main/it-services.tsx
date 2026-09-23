@@ -58,14 +58,14 @@ export default function ITServices() {
           opacity: isVisible ? 1 : 0,
           transform: isVisible ? "translateY(0) scale(1)" : "translateY(30px) scale(0.9)",
           transition: "all .8s cubic-bezier(.25,.8,.25,1) .2s",
-        }}>Healthcare Technology Suite</h2>
+        }}>Innovative Software Solutions</h2>
         <p style={{
           fontSize: "20px", color: "#64748B", lineHeight: 1.8,
           opacity: isVisible ? 1 : 0,
           transform: isVisible ? "translateY(0) scale(1)" : "translateY(30px) scale(0.9)",
           transition: "all .8s cubic-bezier(.25,.8,.25,1) .3s",
         }}>
-          Building digital experiences and intelligent solutions for businesses ready to move forward.
+          Engineering powerful, intuitive software applications designed to simplify daily life and accelerate infinite business growth.
         </p>
       </div>
 
