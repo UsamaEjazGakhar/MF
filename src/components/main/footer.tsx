@@ -1,15 +1,14 @@
 import Link from "next/link";
 
-const FOOTER_DIVISIONS = [
-  { label: "Care Institute", href: "#" },
-  { label: "Morrow Foundry", href: "#" },
-  { label: "IT Services", href: "#" },
+const FOOTER_PROJECTS = [
+  { label: "Lab Management System", href: "/projects" },
+  { label: "Hospital Management", href: "/projects" },
 ];
 
-const FOOTER_PRODUCTS = [
-  { label: "Hospital Software", href: "#" },
-  { label: "Lab Management", href: "#" },
-  { label: "Web Development", href: "#" },
+const FOOTER_SOLUTIONS = [
+  { label: "Enterprise Software", href: "#" },
+  { label: "Cloud Applications", href: "#" },
+  { label: "Digital Transformations", href: "#" },
 ];
 
 const FOOTER_COMPANY = [
@@ -50,7 +49,7 @@ export default function Footer() {
             </div>
           </div>
           <p style={{ fontSize: "14px", color: "rgba(255,255,255,.4)", lineHeight: 1.7, marginBottom: "24px" }}>
-            An independent technology and innovation studio building digital products across healthcare, AI, software, gaming and emerging technologies.
+            An innovative software studio building intuitive digital products and everyday applications designed to simplify and enrich your life.
           </p>
           <div style={{ display: "flex", gap: "10px" }}>
             {SOCIALS.map((s) => (
@@ -66,9 +65,9 @@ export default function Footer() {
           </div>
         </div>
 
-        {/* Divisions Column */}
-        <FooterCol title="Divisions" items={FOOTER_DIVISIONS} />
-        <FooterCol title="IT Products" items={FOOTER_PRODUCTS} />
+        {/* Links Columns */}
+        <FooterCol title="Projects" items={FOOTER_PROJECTS} />
+        <FooterCol title="Solutions" items={FOOTER_SOLUTIONS} />
         <FooterCol title="Company" items={FOOTER_COMPANY} />
       </div>
 
