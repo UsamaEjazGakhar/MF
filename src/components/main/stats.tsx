@@ -1,9 +1,9 @@
 const STATS = [
-  { num: "4+", label: "Business Divisions" },
-  { num: "100%", label: "Compliance Focused" },
-  { num: "Global", label: "MBBS Network" },
-  { num: "5+", label: "IT Verticals" },
-  { num: "24/7", label: "Healthcare Support" },
+  { num: "100%", label: "User Focused" },
+  { num: "24/7", label: "Cloud Accessibility" },
+  { num: "Global", label: "Digital Reach" },
+  { num: "100%", label: "Secure Systems" },
+  { num: "∞", label: "Infinite Growth" },
 ];
 
 export default function Stats() {

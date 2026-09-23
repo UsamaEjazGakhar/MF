@@ -51,14 +51,14 @@ export default function Hero() {
         </p>
 
         {/* Buttons */}
-        <div className="animate-fade-up-delay-3" style={{ display: "flex", gap: "16px", flexWrap: "wrap" }}>
+        <div className="animate-fade-up-delay-3" style={{ display: "flex", gap: "16px", flexWrap: "wrap", marginBottom: "32px" }}>
           <a href="#divisions" className="hero-btn-primary" style={{
             background: "linear-gradient(135deg,#F59E0B,#D97706)", color: "#0B1220",
             padding: "15px 34px", borderRadius: "11px", fontWeight: 700, fontSize: "15px",
             textDecoration: "none", display: "inline-flex", alignItems: "center", gap: "9px",
             transition: "transform .2s,box-shadow .2s", letterSpacing: "-0.2px",
           }}>
-            Explore Our Divisions ↗
+            Explore Our Projects ↗
           </a>
           <a href="#about" className="hero-btn-secondary" style={{
             background: "rgba(255,255,255,.07)", color: "#fff",
@@ -71,7 +71,7 @@ export default function Hero() {
 
         {/* Trust Chips */}
         <div className="animate-fade-up-delay-1" style={{
-          display: "flex", alignItems: "center", gap: "28px", marginTop: "0px", flexWrap: "wrap",
+          display: "flex", alignItems: "center", gap: "28px", marginTop: "32px", flexWrap: "wrap",
         }}>
           <span style={{ fontSize: "13px", color: "rgba(255,255,255,.35)", fontWeight: 500 }}>
             Trusted by:
