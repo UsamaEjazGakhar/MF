@@ -12,26 +12,7 @@ const divisionsData = [
     sortOrder: 1,
     targetUrl: null,
   },
-  {
-    id: "2",
-    title: "Morrow Foundry",
-    slug: "morrow-foundry",
-    description: "An independent technology and innovation portfolio building digital solutions across healthcare, AI, software, gaming, and emerging technologies.",
-    icon: "🏥",
-    iconColor: "icon-teal",
-    sortOrder: 2,
-    targetUrl: null,
-  },
-  {
-    id: "3",
-    title: "Study Abroad Next Project",
-    slug: "study-abroad-next-project",
-    description: "Guiding studets to the world's finest universities with end-to-end admission and visa support.",
-    icon: "🌍",
-    iconColor: "icon-amber",
-    sortOrder: 3,
-    targetUrl: "https://study-abroad-wg4o.vercel.app/",
-  },
+
   {
     id: "4",
     title: "Hospital Management System",
@@ -57,13 +38,13 @@ export default function Divisions() {
       {/* Header */}
       <div className="divisions-header">
         <div>
-          <p className="divisions-subtitle">Our Divisions</p>
-          <h2 className="divisions-title">Four Pillars of Excellence</h2>
+          <p className="divisions-subtitle">Our Projects</p>
+          <h2 className="divisions-title">Our Portfolio</h2>
           <p className="divisions-text">
-            A technology and innovation venture building digital solutions across healthcare, AI, software, gaming, and beyond.
+            Building digital solutions to streamline operations and enhance management for educational and healthcare facilities.
           </p>
         </div>
-        <a href="#" className="view-all-link">View All Divisions →</a>
+        <Link href="/projects" className="view-all-link">View All Projects →</Link>
       </div>
 
       {/* Cards Grid */}
