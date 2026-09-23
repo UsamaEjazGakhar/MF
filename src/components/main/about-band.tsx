@@ -1,15 +1,13 @@
 const ABOUT_STATS = [
-  { num: "4+", label: "Core Business Divisions" },
-  { num: "5+", label: "IT Product Verticals" },
-  { num: "15+", label: "Partner Universities Abroad" },
+  { num: "24/7", label: "Daily Life Usage" },
   { num: "∞", label: "Growth Potential" },
 ];
 
 const ABOUT_CARDS = [
-  { icon: "🏆", title: "Our Mission", desc: "Deliver accessible, world-class healthcare across all our divisions." },
-  { icon: "🔭", title: "Our Vision", desc: "To be South Asia's most trusted healthcare technology group by 2030." },
-  { icon: "💡", title: "Innovation", desc: "Cutting-edge HMS and lab management solutions for modern hospitals." },
-  { icon: "🌱", title: "Growth", desc: "Structured for scalability with a clear 5-year expansion roadmap." },
+  { icon: "🏆", title: "Our Mission", desc: "To develop accessible and practical software products that simplify and enhance daily life." },
+  { icon: "🔭", title: "Our Vision", desc: "To become a leading technology group delivering seamless everyday digital solutions globally." },
+  { icon: "💡", title: "Innovation", desc: "Creating intuitive, scalable, and user-friendly software applications for everyone." },
+  { icon: "🌱", title: "Growth", desc: "Driven by infinite growth potential and a clear roadmap for continuous expansion." },
 ];
 
 export default function AboutBand() {
@@ -22,9 +20,9 @@ export default function AboutBand() {
         {/* Left: Text */}
         <div>
           <p className="about-subtitle">Who We Are</p>
-          <h2 className="about-title">A Group Built for<br />Tomorrow&apos;s Healthcare</h2>
+          <h2 className="about-title">Software Built for<br />Everyday Life</h2>
           <p className="about-text">
-            Morrow Foundry is a next-generation technology and innovation venture building solutions across healthcare, AI, software, gaming, and emerging technologies. We transform bold ideas into meaningful digital products with a global vision.
+            Morrow Foundry is a technology and innovation venture dedicated to building software products that seamlessly integrate into your daily life. We create scalable, user-centric solutions with infinite growth potential.
           </p>
 
           {/* Mini Stats */}
