@@ -25,9 +25,9 @@ export default function HeroAdmin() {
       const res = await fetch("/api/settings");
       const data = await res.json();
       if (data.success) {
-        setHeroBadge(data.data.heroBadge || "Trusted Healthcare Technology Group — medicxus.com");
+        setHeroBadge(data.data.heroBadge || "Trusted Healthcare Technology Group — morrowfoundry.com");
         setHeroTitle(data.data.heroTitle || "Empowering Healthcare. Transforming Lives.");
-        setHeroSubtitle(data.data.heroSubtitle || "Medicxus Group bridges world-class health education, advanced diagnostics, International Medical and Health care education consultancy.");
+        setHeroSubtitle(data.data.heroSubtitle || "Morrow Foundry bridges world-class health education, advanced diagnostics, International Medical and Health care education consultancy.");
         setHeroPrimaryCta(data.data.heroPrimaryCta || "Explore Our Divisions");
         setHeroSecondaryCta(data.data.heroSecondaryCta || "Learn About Us");
       }

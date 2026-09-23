@@ -9,6 +9,6 @@ export default function robots(): MetadataRoute.Robots {
         disallow: ["/admin/", "/api/", "/login"],
       },
     ],
-    sitemap: "https://medicxus.com/sitemap.xml",
+    sitemap: "https://morrowfoundry.com/sitemap.xml",
   };
 }

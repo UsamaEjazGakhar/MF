@@ -98,8 +98,8 @@ export default function ContactPage() {
                 <div>
                   <h4 style={{ fontSize: "16px", fontWeight: 800, color: "#0F172A", marginBottom: "6px" }}>Digital Support</h4>
                   <p style={{ fontSize: "14px", color: "#475569", lineHeight: 1.6, margin: 0 }}>
-                    General: info@medicxus.com<br />
-                    IT & Software: customercare@medicxus.com
+                    General: morrowfoundry.com<br />
+                    General: morrowfoundry2@gmail.com<br />
                   </p>
                 </div>
               </div>

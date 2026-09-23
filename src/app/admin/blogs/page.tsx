@@ -19,29 +19,11 @@ export default function BlogsAdmin() {
     {
       id: "1",
       title: "The Evolution of Hospital Management Systems",
-      author: "Dr. Bilal Siddiqui",
+      author: "USAMA EJAZ",
       category: "Healthcare Technology",
       status: "Published",
       publishedAt: "2026-05-15",
       readTime: "5 min read",
-    },
-    {
-      id: "2",
-      title: "Guiding Medical Students: Preparing for MBBS Abroad",
-      author: "Prof. Sarah Khan",
-      category: "Education Consultancy",
-      status: "Draft",
-      publishedAt: "N/A",
-      readTime: "8 min read",
-    },
-    {
-      id: "3",
-      title: "Why Automation is Critical for Modern Morrow Foundry Labs",
-      author: "Engr. Usman Ghafoor",
-      category: "Diagnostics / Lab Automation",
-      status: "Published",
-      publishedAt: "2026-05-10",
-      readTime: "4 min read",
     },
   ]);
 

@@ -9,26 +9,6 @@ export default function Hero() {
       display: "flex",
       alignItems: "center",
     }}>
-      {/* Orbs */}
-      <div style={{
-        position: "absolute", top: "-120px", right: "-120px",
-        width: "650px", height: "650px",
-        background: "radial-gradient(circle,rgba(20,184,166,.18) 0%,transparent 70%)",
-        borderRadius: "50%", pointerEvents: "none",
-      }} />
-      <div style={{
-        position: "absolute", bottom: "-180px", left: "35%",
-        width: "500px", height: "500px",
-        background: "radial-gradient(circle,rgba(245,158,11,.09) 0%,transparent 70%)",
-        borderRadius: "50%", pointerEvents: "none",
-      }} />
-      <div style={{
-        position: "absolute", top: "50%", left: "-100px", transform: "translateY(-50%)",
-        width: "400px", height: "400px",
-        background: "radial-gradient(circle,rgba(15,76,129,.2) 0%,transparent 70%)",
-        borderRadius: "50%", pointerEvents: "none",
-      }} />
-
       {/* Content */}
       <div style={{ position: "relative", zIndex: 2, maxWidth: "760px" }}>
         {/* Badge */}

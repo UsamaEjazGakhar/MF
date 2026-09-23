@@ -57,7 +57,7 @@ const jsonLd = {
     "https://facebook.com/medicxus",
   ],
   department: [
-    { "@type": "EducationalOrganization", name: "Care Institute of Health Sciences" },
+    { "@type": "EducationalOrganization", name: "Morrow Foundry Education" },
     { "@type": "TechBusiness", name: "Morrow Foundry" },
     { "@type": "Organization", name: "Study Abroad Project" },
     { "@type": "Organization", name: "Healthcare IT Solutions" },
