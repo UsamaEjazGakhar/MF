@@ -20,6 +20,7 @@ const NAV_ITEMS = [
   { icon: "💰", label: "Nursing Fees", href: "/admin/nursing-fee-structures" },
   { icon: "🔬", label: "Paramedical Lab Fees", href: "/admin/paramedical-fee-structure-lab" },
   { icon: "🧪", label: "Paramedical MLT Fees", href: "/admin/paramedical-fee-structure-mlt" },
+  { icon: "🔗", label: "Social Links", href: "/admin/socials" },
   { icon: "⚙️", label: "Settings", href: "/admin/settings" },
 ];
 
